@@ -1,6 +1,6 @@
 ############################################## FLEs
 
-## find intact genes with PseudoFinder
+## find intact genes with PseudoFinder 
 for i in ready/*.gbk; do python3 pseudofinder-master/pseudofinder.py annotate -g $i -db Francisella_ref_db.faa -op $i.pf; done
 mkdir intactgenes
 cp ready/*intact*ffn intactgenes/
