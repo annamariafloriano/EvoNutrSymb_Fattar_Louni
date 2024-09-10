@@ -1,6 +1,6 @@
 Phylogenies contains the pipelines used for phylogenetic inferences.
 
-SelComm.R contains the commands for selection of orthologs for FLE phylogeny inference
+FLE_SelComm.R contains the commands for selection of orthologs for FLE phylogeny inference
 CLE_SelComm.R contains the commands for selection of orthologs for CLE phylogeny inference
 GetNtClusters.py is a python script to retrieve the nucleotide sequences of the protein clusters given protein clusters and input files (ffn, before translation to proteins to be used as input for OrthoFinder)
 
